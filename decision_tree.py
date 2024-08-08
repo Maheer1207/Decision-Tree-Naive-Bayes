@@ -1,24 +1,9 @@
 """
-CMPUT 466/566 - Machine Learning, Winter 2024, Assignment 1
-B. Chan
-
-TODO: You will need to implement the following functions:
-- entropy(y, num_categories): ndarray, int -> float
-- optimal_split(X, y, H_data, split_dim, num_classes, debug): ndarray, ndarray, float, int, int, bool -> (float, float)
-
-Implementation description will be provided under each function.
-
-For the following:
-- N: Number of samples.
-- D: Dimension of input features.
-- C: Number of classes (labels). We assume the class starts from 0.
-
 Use Node to represent the decision tree, built using the train function.
 The root of the tree is at level = 0.
 You can access its child(ren) using node.left and/or node.right.
 If the node is a leaf node, the is_leaf flag is set to True.
 """
-
 
 import numpy as np
 
