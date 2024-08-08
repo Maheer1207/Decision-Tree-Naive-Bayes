@@ -1,13 +1,4 @@
 """
-CMPUT 466/566 - Machine Learning, Winter 2024, Assignment 1
-B. Chan
-
-TODO: You will need to implement the following functions:
-- train_nb: ndarray, ndarray, int -> Params
-- predict_nb: Params, ndarray -> ndarray
-
-Implementation description will be provided under each function.
-
 For the following:
 - N: Number of samples.
 - D: Dimension of input features.
